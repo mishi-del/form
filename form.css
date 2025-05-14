@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #f7f2dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-panel {
+    background-color: #7e7dab;
+    color: white;
+    padding: 40px;
+    width: 40%;
+  }
+  
+  .left-panel h2 {
+    margin: 0;
+  }
+  
+  .left-panel h3 {
+    margin-top: 10px;
+  }
+  
+  .left-panel p {
+    opacity: 0.9;
+  }
+  
+  .testimonial {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  
+  .testimonial-user {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .testimonial-user img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .right-panel {
+    width: 60%;
+    padding: 40px;
+  }
+  
+  .right-panel h2 {
+    margin-bottom: 5px;
+  }
+  
+  .right-panel a {
+    color: #00008B;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .options {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #7e7dab;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6b6996;
+  }
+  
